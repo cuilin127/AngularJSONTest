@@ -1,0 +1,20 @@
+<body>
+    <div class="gridArea">
+        <div class="navigation">
+            <nav>
+                <button *ngFor="let song of mySong; let i=index" (click)="showData(i)">{{song.name}}</button>
+            </nav>
+        </div>
+        <div class="Image">
+            <img src={{mySong[count].picture}} width="150px" height="100px">
+        </div>
+        <div class="info">
+            <ul>
+                <li>Song Name: {{mySong[count].name}}</li>
+                <li>Artist: {{mySong[count].artist}}</li>
+                <li>Genre: {{mySong[count].genre}}</li>
+                <li>Year: {{mySong[count].year}}</li>
+            </ul>
+        </div>
+    </div>
+</body>

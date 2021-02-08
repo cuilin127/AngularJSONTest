@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+h1 {
+    font-style: italic;
+    color: navy;
+    text-align: center;
+    font-size: 14px;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 10px;
+}
